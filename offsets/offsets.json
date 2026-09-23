@@ -9,8 +9,9 @@
     "dwGlowManager": 39155616,
     "dwLocalPlayerController": 39003352,
     "dwLocalPlayerPawn": 39171480,
-    "dwPlantedC4": 36801120,
+    "dwPlantedC4": 38550824,
     "dwPrediction": 39171232,
+    "dwSensitivity": 39133808,
     "dwSensitivity_sensitivity": 88,
     "dwViewAngles": 39260424,
     "dwViewMatrix": 39192800,
@@ -22,7 +23,7 @@
     "dwNetworkGameClient": 9544016,
     "dwNetworkGameClient_clientTickCount": 920,
     "dwNetworkGameClient_deltaTick": 588,
-    "dwNetworkGameClient_isBackgroundMap": 2888735,
+    "dwNetworkGameClient_isBackgroundMap": 2888767,
     "dwNetworkGameClient_localPlayer": 248,
     "dwNetworkGameClient_maxClients": 576,
     "dwNetworkGameClient_serverTickCount": 588,
@@ -37,6 +38,7 @@
     "dwGameTypes": 1773520
   },
   "soundsystem.dll": {
-    "dwSoundSystem": 5190768
+    "dwSoundSystem": 5460800,
+    "dwSoundSystem_engineViewData": 124
   }
 }

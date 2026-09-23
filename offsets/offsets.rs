@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2026-09-23 00:01:42.500831400 UTC
+// 2026-09-23 00:36:56.282634500 UTC
 
 #![allow(non_upper_case_globals, unused)]
 
@@ -16,8 +16,9 @@ pub mod cs2_dumper {
             pub const dwGlowManager: usize = 0x25577A0;
             pub const dwLocalPlayerController: usize = 0x25324D8;
             pub const dwLocalPlayerPawn: usize = 0x255B598;
-            pub const dwPlantedC4: usize = 0x2318A60;
+            pub const dwPlantedC4: usize = 0x24C3D28;
             pub const dwPrediction: usize = 0x255B4A0;
+            pub const dwSensitivity: usize = 0x25582D0;
             pub const dwSensitivity_sensitivity: usize = 0x58;
             pub const dwViewAngles: usize = 0x2571108;
             pub const dwViewMatrix: usize = 0x25608E0;
@@ -30,7 +31,7 @@ pub mod cs2_dumper {
             pub const dwNetworkGameClient: usize = 0x91A150;
             pub const dwNetworkGameClient_clientTickCount: usize = 0x398;
             pub const dwNetworkGameClient_deltaTick: usize = 0x24C;
-            pub const dwNetworkGameClient_isBackgroundMap: usize = 0x2C141F;
+            pub const dwNetworkGameClient_isBackgroundMap: usize = 0x2C143F;
             pub const dwNetworkGameClient_localPlayer: usize = 0xF8;
             pub const dwNetworkGameClient_maxClients: usize = 0x240;
             pub const dwNetworkGameClient_serverTickCount: usize = 0x24C;
@@ -48,7 +49,8 @@ pub mod cs2_dumper {
         }
         // Module: soundsystem.dll
         pub mod soundsystem_dll {
-            pub const dwSoundSystem: usize = 0x4F3470;
+            pub const dwSoundSystem: usize = 0x535340;
+            pub const dwSoundSystem_engineViewData: usize = 0x7C;
         }
     }
 }
