@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2026-11-18 00:31:52.047020 UTC
+// 2026-11-18 09:47:26.767143600 UTC
 
 namespace CS2Dumper.Offsets {
     // Module: client.dll
@@ -13,6 +13,7 @@ namespace CS2Dumper.Offsets {
         public const nint dwGlowManager = 0x2553B90;
         public const nint dwLocalPlayerController = 0x252ED78;
         public const nint dwLocalPlayerPawn = 0x2557538;
+        public const nint dwPlantedC4 = 0x24BD9E8;
         public const nint dwPrediction = 0x2557440;
         public const nint dwSensitivity = 0x25582D0;
         public const nint dwSensitivity_sensitivity = 0x58;
@@ -23,8 +24,8 @@ namespace CS2Dumper.Offsets {
     }
     // Module: engine2.dll
     public static class Engine2Dll {
-        public const nint dwBuildNumber = 0x6B2D18;
-        public const nint dwNetworkGameClient = 0x9AFB30;
+        public const nint dwBuildNumber = 0x6B2D1C;
+        public const nint dwNetworkGameClient = 0x9AFB90;
         public const nint dwNetworkGameClient_clientTickCount = 0x398;
         public const nint dwNetworkGameClient_deltaTick = 0x24C;
         public const nint dwNetworkGameClient_isBackgroundMap = 0x2C143F;
@@ -32,8 +33,8 @@ namespace CS2Dumper.Offsets {
         public const nint dwNetworkGameClient_maxClients = 0x240;
         public const nint dwNetworkGameClient_serverTickCount = 0x24C;
         public const nint dwNetworkGameClient_signOnState = 0x230;
-        public const nint dwWindowHeight = 0x9B4294;
-        public const nint dwWindowWidth = 0x9B4290;
+        public const nint dwWindowHeight = 0x9B42EC;
+        public const nint dwWindowWidth = 0x9B42E8;
     }
     // Module: inputsystem.dll
     public static class InputsystemDll {

@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2026-11-18 00:31:52.047020 UTC
+// 2026-11-18 09:47:26.767143600 UTC
 
 #pragma once
 
@@ -19,6 +19,7 @@ namespace cs2_dumper {
             constexpr std::ptrdiff_t dwGlowManager = 0x2553B90;
             constexpr std::ptrdiff_t dwLocalPlayerController = 0x252ED78;
             constexpr std::ptrdiff_t dwLocalPlayerPawn = 0x2557538;
+            constexpr std::ptrdiff_t dwPlantedC4 = 0x24BD9E8;
             constexpr std::ptrdiff_t dwPrediction = 0x2557440;
             constexpr std::ptrdiff_t dwSensitivity = 0x25582D0;
             constexpr std::ptrdiff_t dwSensitivity_sensitivity = 0x58;
@@ -29,8 +30,8 @@ namespace cs2_dumper {
         }
         // Module: engine2.dll
         namespace engine2_dll {
-            constexpr std::ptrdiff_t dwBuildNumber = 0x6B2D18;
-            constexpr std::ptrdiff_t dwNetworkGameClient = 0x9AFB30;
+            constexpr std::ptrdiff_t dwBuildNumber = 0x6B2D1C;
+            constexpr std::ptrdiff_t dwNetworkGameClient = 0x9AFB90;
             constexpr std::ptrdiff_t dwNetworkGameClient_clientTickCount = 0x398;
             constexpr std::ptrdiff_t dwNetworkGameClient_deltaTick = 0x24C;
             constexpr std::ptrdiff_t dwNetworkGameClient_isBackgroundMap = 0x2C143F;
@@ -38,8 +39,8 @@ namespace cs2_dumper {
             constexpr std::ptrdiff_t dwNetworkGameClient_maxClients = 0x240;
             constexpr std::ptrdiff_t dwNetworkGameClient_serverTickCount = 0x24C;
             constexpr std::ptrdiff_t dwNetworkGameClient_signOnState = 0x230;
-            constexpr std::ptrdiff_t dwWindowHeight = 0x9B4294;
-            constexpr std::ptrdiff_t dwWindowWidth = 0x9B4290;
+            constexpr std::ptrdiff_t dwWindowHeight = 0x9B42EC;
+            constexpr std::ptrdiff_t dwWindowWidth = 0x9B42E8;
         }
         // Module: inputsystem.dll
         namespace inputsystem_dll {

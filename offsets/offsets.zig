@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2026-11-18 00:31:52.047020 UTC
+// 2026-11-18 09:47:26.767143600 UTC
 
 pub const cs2_dumper = struct {
     pub const offsets = struct {
@@ -14,6 +14,7 @@ pub const cs2_dumper = struct {
             pub const dwGlowManager: usize = 0x2553B90;
             pub const dwLocalPlayerController: usize = 0x252ED78;
             pub const dwLocalPlayerPawn: usize = 0x2557538;
+            pub const dwPlantedC4: usize = 0x24BD9E8;
             pub const dwPrediction: usize = 0x2557440;
             pub const dwSensitivity: usize = 0x25582D0;
             pub const dwSensitivity_sensitivity: usize = 0x58;
@@ -24,8 +25,8 @@ pub const cs2_dumper = struct {
         };
         // Module: engine2.dll
         pub const engine2_dll = struct {
-            pub const dwBuildNumber: usize = 0x6B2D18;
-            pub const dwNetworkGameClient: usize = 0x9AFB30;
+            pub const dwBuildNumber: usize = 0x6B2D1C;
+            pub const dwNetworkGameClient: usize = 0x9AFB90;
             pub const dwNetworkGameClient_clientTickCount: usize = 0x398;
             pub const dwNetworkGameClient_deltaTick: usize = 0x24C;
             pub const dwNetworkGameClient_isBackgroundMap: usize = 0x2C143F;
@@ -33,8 +34,8 @@ pub const cs2_dumper = struct {
             pub const dwNetworkGameClient_maxClients: usize = 0x240;
             pub const dwNetworkGameClient_serverTickCount: usize = 0x24C;
             pub const dwNetworkGameClient_signOnState: usize = 0x230;
-            pub const dwWindowHeight: usize = 0x9B4294;
-            pub const dwWindowWidth: usize = 0x9B4290;
+            pub const dwWindowHeight: usize = 0x9B42EC;
+            pub const dwWindowWidth: usize = 0x9B42E8;
         };
         // Module: inputsystem.dll
         pub const inputsystem_dll = struct {
