@@ -9,7 +9,11 @@
     "dwGlowManager": 39141648,
     "dwLocalPlayerController": 38990592,
     "dwLocalPlayerPawn": 39156408,
+    "dwPlantedC4": 38526824,
     "dwPrediction": 39156160,
+    "dwSensitivity": 39144392,
+    "dwSensitivity_sensitivity": 88,
+    "dwServerConfirmedReservation": 39249736,
     "dwViewAngles": 39246824,
     "dwViewMatrix": 39179216,
     "dwViewRender": 39181720,
@@ -35,6 +39,7 @@
     "dwGameTypes": 1765312
   },
   "soundsystem.dll": {
-    "dwSoundSystem": 5448816
+    "dwSoundSystem": 5448816,
+    "dwSoundSystem_engineViewData": 108
   }
 }

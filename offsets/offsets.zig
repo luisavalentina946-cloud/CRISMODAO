@@ -1,5 +1,5 @@
 // Generated using https://github.com/a2x/cs2-dumper
-// 2026-11-20 03:53:40.743068300 UTC
+// 2026-11-20 04:37:58.582506900 UTC
 
 pub const cs2_dumper = struct {
     pub const offsets = struct {
@@ -14,7 +14,11 @@ pub const cs2_dumper = struct {
             pub const dwGlowManager: usize = 0x2554110;
             pub const dwLocalPlayerController: usize = 0x252F300;
             pub const dwLocalPlayerPawn: usize = 0x2557AB8;
+            pub const dwPlantedC4: usize = 0x24BDF68;
             pub const dwPrediction: usize = 0x25579C0;
+            pub const dwSensitivity: usize = 0x2554BC8;
+            pub const dwSensitivity_sensitivity: usize = 0x58;
+            pub const dwServerConfirmedReservation: usize = 0x256E748;
             pub const dwViewAngles: usize = 0x256DBE8;
             pub const dwViewMatrix: usize = 0x255D3D0;
             pub const dwViewRender: usize = 0x255DD98;
@@ -45,6 +49,7 @@ pub const cs2_dumper = struct {
         // Module: soundsystem.dll
         pub const soundsystem_dll = struct {
             pub const dwSoundSystem: usize = 0x532470;
+            pub const dwSoundSystem_engineViewData: usize = 0x6C;
         };
     };
 };
